@@ -1,12 +1,10 @@
 package ru.romazanov.words
 
 import android.app.Application
-import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import ru.romazanov.words.data.AppDatabase
-import ru.romazanov.words.data.RoomRepository
 import ru.romazanov.words.data.Word
 
 class MainViewModel(application: Application) : ViewModel() {
